@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PAD Interface</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+       body {
+    background: url('https://t3.ftcdn.net/jpg/02/38/08/42/360_F_238084232_5XhGUddDZezzJxybvVXzfPp8cOKAuqRp.jpg')
+    no-repeat center -160px / cover;  /* moved image upward */
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+        /* Navbar */
+        nav {
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 102, 102, 0.8);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0 25px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            gap: 15px;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+        }
+        .logo img {
+            height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: 700;
+            color: #D4F1F4;
+            letter-spacing: 2px;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .nav-buttons {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-buttons button {
+            background: transparent;
+            border: 2px solid #D4F1F4;
+            color: #D4F1F4;
+            padding: 8px 18px;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .nav-buttons button:hover {
+            background-color: #D4F1F4;
+            color: #004d4d;
+        }
+        /* Main Section */
+        .main {
+            max-width: 1200px;
+            margin: 100px auto 0 auto;
+            background-color: rgba(0, 102, 102, 0.75);
+            border-radius: 15px;
+            padding: 20px 30px;
+            color: white;
+            text-align: left;
+            box-shadow: 0 0 15px rgba(0,0,0,0.4);
+            user-select: none;
+        }
+        .main h1 {
+            font-size: 40px;
+            line-height: 1.3;
+            margin-bottom: 22px;
+            letter-spacing: 0.05em;
+        }
+        .main p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #cce0e0;
+        }
+        .main button.primary-btn,
+        .main a.primary-btn {
+            background: #D4F1F4;
+            border: none;
+            color: #004d4d;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .main button.primary-btn:hover,
+        .main a.primary-btn:hover {
+            background: #88cfcf;
+        }
+
+        /* NEW: Two-column Section */
+        .info-section {
+            max-width: 1200px;
+            margin: 30px auto 60px auto;
+            display: flex;
+            gap: 25px;
+        }
+        .info-card {
+            flex: 1;
+            background-color: rgba(0, 102, 102, 0.75);
+            border-radius: 15px;
+            padding: 25px 30px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.35);
+            color: white;
+        }
+        .info-card h2 {
+            font-size: 26px;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
+        }
+        .info-card p {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #cce0e0;
+        }
+
+        /* Responsive */
+        @media (max-width: 1280px) {
+            .main {
+                max-width: 95%;
+                padding: 30px 40px;
+            }
+            .main h1 {
+                font-size: 32px;
+            }
+            .main p {
+                font-size: 16px;
+            }
+        }
+        @media (max-width: 800px) {
+            .info-section {
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 600px) {
+            nav {
+                padding: 0 15px;
+            }
+            .main {
+                margin: 90px 15px 0 15px;
+                padding: 30px 20px;
+                font-size: 16px;
+            }
+            .main h1 {
+                font-size: 24px;
+            }
+            .nav-buttons button {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo" aria-label="PAD logo">
+            <img 
+              src="{{ url_for('static', filename='img/logo.png') }}"
+              alt="Peripheral Arterial Diseases Logo" />
+            <div class="logo-text">PAD</div>
+        </div>
+        <div class="nav-buttons">
+            <a href="{{ url_for('serve_index_html') }}"><button type="button">Home</button></a>
+            <a href="{{ url_for('serve_login_html') }}"><button type="button">Login</button></a>
+        </div>
+    </nav>
+
+    <section class="main" role="main">
+        <h1>Peripheral arterial disease(PAD)</h1>
+        <p>
+            It is a circulatory condition where narrowed arteries reduce blood flow to the limbs, most commonly the legs. This is typically caused by atherosclerosis, the buildup of plaque that hardens arteries. This leads to symptoms like leg pain and cramping during activity, and can increase the risk of heart attack or stroke. Early diagnosis and treatment help manage symptoms and prevent complications such as amputation.
+        </p>
+        <a class="primary-btn" href="{{ url_for('analysis') }}">Upload the report</a>
+    </section>
+
+    <!-- NEW TWO COLUMN SECTION -->
+    <section class="info-section">
+        <div class="info-card">
+            <h2>Symptoms</h2>
+            <p>
+                PAD often causes leg pain, cramping, or numbness during walking due to reduced blood flow.
+                Some people may notice slow wound healing or a cold sensation in the feet.
+                In later stages, discomfort may continue even while resting.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h2>Remedies</h2>
+            <p>
+                Regular walking exercises help improve blood circulation and reduce symptoms.
+                Following a healthy diet, avoiding smoking, and controlling diabetes or blood pressure are essential.
+                Doctors may also recommend medication to improve overall limb blood flow.
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>

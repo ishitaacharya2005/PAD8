@@ -1,0 +1,7 @@
+{
+  "n_rows": 100,
+  "true_label_counts": {
+    "0": 100
+  },
+  "error": "No predictions available. Either provide predictions in CSV or pass --model and ensure model.feature_names are discoverable or pass --feature-cols."
+}

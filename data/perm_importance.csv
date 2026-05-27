@@ -1,0 +1,13 @@
+feature,importance_mean,importance_std
+waveform_monophasic_count,0.2839583333333333,0.0026990867797172524
+waveform_triphasic_count,0.07654166666666667,0.0017603858478564684
+waveform_biphasic_count,0.04391666666666667,0.0019400744544704827
+PSV__Common_Femoral_Artery,0.0,0.0
+PSV__Mid_SFA,0.0,0.0
+PSV__Proximal_Superficial_Femoral_Artery,0.0,0.0
+PSV__Profundus_Femoris,0.0,0.0
+PSV__Distal_SFA,0.0,0.0
+PSV__Anterior_Tibial_Artery,0.0,0.0
+PSV__Peroneal___Posterior_Tibial_Artery,0.0,0.0
+PSV__Popliteal_Artery,0.0,0.0
+ABI,0.0,0.0

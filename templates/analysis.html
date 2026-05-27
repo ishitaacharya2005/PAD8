@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAD Report Analysis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-image: url("https://static.vecteezy.com/system/resources/thumbnails/070/668/067/small/empty-wooden-tabletop-with-blurred-hospital-ward-background-ideal-for-product-display-and-healthcare-advertising-photo.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      overflow: hidden;
+    }
+
+    nav {
+      background-color: rgba(0, 102, 102, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 45px;
+      width: auto;
+    }
+
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-buttons button {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .nav-buttons button:hover {
+      background-color: white;
+      color: teal;
+      transform: scale(1.05);
+    }
+
+    .container {
+      background-color: rgba(0, 102, 102, 0.9);
+      width: 450px;
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      margin-top: -80px;
+    }
+
+    .container h1 {
+      margin-bottom: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .container p {
+      font-size: 15px;
+      margin-bottom: 20px;
+      color: #e3f2f2;
+    }
+
+    input[type="file"] {
+      display: block;
+      width: 100%;
+      margin: 15px 0;
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      background-color: #e6f2f2;
+      color: #004d4d;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .analyze-btn {
+      background-color: white;
+      color: teal;
+      border: none;
+      border-radius: 25px;
+      padding: 10px 30px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .analyze-btn:hover {
+      background-color: #cdebea;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        width: 90%;
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo" onclick="window.location.href='/index.html'">
+      <img src="/static/img/logo.png" alt="PAD Logo" />
+      <div class="logo-text">PAD</div>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="window.location.href='/index.html'">Home</button>
+      <button onclick="window.location.href='/login.html'">Login</button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>PAD Report Analysis</h1>
+    <p>Upload a Doppler scan report image (PNG, JPG, or PDF). The system will analyze it using AI and clinical rules.</p>
+
+    <form action="/analysis" method="post" enctype="multipart/form-data">
+      <input type="file" name="report" accept=".png, .jpg, .jpeg, .pdf" required />
+      <button type="submit" class="analyze-btn">Analyse</button>
+    </form>
+
+    <!-- Optional: Flask can inject result dynamically here if needed -->
+    {% if result %}
+      {% if not result.valid %}
+        <div style="background-color:white;color:teal;padding:10px;border-radius:10px;margin-top:10px;">
+          {{ result.message }}
+        </div>
+      {% else %}
+        <div style="background-color:white;color:teal;padding:10px;border-radius:10px;margin-top:10px;text-align:left;">
+          <strong>Patient:</strong> {{ result.patient_name }}<br>
+          <strong>Age / Sex:</strong> {{ result.age_sex }}<br>
+          <strong>PAD Detected:</strong> {{ result.pad_detected }}<br>
+          <strong>Severity:</strong> {{ result.severity }}<br>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</body>
+</html>

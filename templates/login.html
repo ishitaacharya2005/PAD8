@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - PAD</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-image: url("https://i.pinimg.com/736x/05/61/6b/05616b208ff9c38393e4debca000137e.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      overflow: hidden;
+    }
+
+    nav {
+      background-color: rgba(0, 102, 102, 0.9);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      height: 60px;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 45px;
+      width: auto;
+    }
+
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 1px;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .nav-buttons button {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 8px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .nav-buttons button:hover {
+      background-color: white;
+      color: teal;
+      transform: scale(1.05);
+    }
+
+    .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      padding-top: 60px;
+    }
+
+    .login-container {
+      background-color: rgba(0, 102, 102, 0.9);
+      width: 350px;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .login-container h2 {
+      margin-bottom: 20px;
+    }
+
+    .login-container input[type="email"],
+    .login-container input[type="password"],
+    .login-container input[type="text"] {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      margin-bottom: 15px;
+      font-size: 15px;
+      height: 40px;
+      font-family: inherit;
+    }
+
+    .login-container label {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 5px;
+      text-align: left;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .login-container button {
+      background-color: white;
+      color: teal;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 0;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .login-container button:hover {
+      background-color: #cdebea;
+    }
+
+    @media (max-height: 600px) {
+      .content-wrapper {
+        align-items: flex-start;
+        padding-top: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo" onclick="window.location.href='/index.html'">
+      <img src="/static/img/logo.png" alt="PAD Logo" />
+      <div class="logo-text">PAD</div>
+    </div>
+
+    <div class="nav-buttons">
+      <button onclick="window.location.href='/index.html'">Home</button>
+      <button onclick="window.location.href='/login.html'">Login</button>
+    </div>
+  </nav>
+
+  <div class="content-wrapper">
+    <div class="login-container">
+      <h2>Welcome Back!</h2>
+      <form action="/login" method="post">
+        <label for="email">Enter your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label for="password">Enter your Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required />
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="showPassword" onclick="togglePassword()" />
+          <label for="showPassword">Show Password</label>
+        </div>
+
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function togglePassword() {
+      const passwordField = document.getElementById("password");
+      passwordField.type = passwordField.type === "password" ? "text" : "password";
+    }
+  </script>
+</body>
+</html>

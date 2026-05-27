@@ -1,0 +1,81 @@
+{
+  "model_present": true,
+  "pad_from_model": true,
+  "model_confidence": 0.6558550392290974,
+  "pad_from_extractor": true,
+  "extractor_severity_label": 3,
+  "conclusion": {
+    "PAD_present": true,
+    "severity_label": 3,
+    "severity_text": "Severe"
+  },
+  "pred_raw": {
+    "pad_detected": true,
+    "severity": "Severe",
+    "proba": [
+      0.01948989626021351,
+      0.12140404384508724,
+      0.20325102066560188,
+      0.6558550392290974
+    ],
+    "label": 3
+  },
+  "parsed_snapshot": {
+    "Patient ID": "789342",
+    "Patient Name": "Mr. Ramesh Bhat",
+    "Age": "72",
+    "Sex": "Male",
+    "Limb": "Arterial Study",
+    "ABI": "0.39",
+    "Common Femoral Artery PSV": 62.0,
+    "Common Femoral Artery Waveform": "Biphasic",
+    "Common Femoral Artery Remarks": null,
+    "Profundus Femoris PSV": 55.0,
+    "Profundus Femoris Waveform": "Monophasic",
+    "Profundus Femoris Remarks": null,
+    "Proximal SFA PSV": null,
+    "Proximal SFA Waveform": null,
+    "Proximal SFA Remarks": null,
+    "Mid SFA PSV": 42.0,
+    "Mid SFA Waveform": "Monophasic",
+    "Mid SFA Remarks": null,
+    "Distal SFA PSV": 38.0,
+    "Distal SFA Waveform": "Monophasic",
+    "Distal SFA Remarks": null,
+    "Popliteal Artery PSV": 35.0,
+    "Popliteal Artery Waveform": "Monophasic",
+    "Popliteal Artery Remarks": null,
+    "Peroneal / Posterior Tibial Artery PSV": 28.0,
+    "Peroneal / Posterior Tibial Artery Waveform": "Monophasic",
+    "Peroneal / Posterior Tibial Artery Remarks": null,
+    "Anterior Tibial Artery PSV": 30.0,
+    "Anterior Tibial Artery Waveform": "Monophasic",
+    "Anterior Tibial Artery Remarks": null,
+    "waveform_monophasic_count": 8,
+    "waveform_biphasic_count": 1,
+    "waveform_triphasic_count": 0,
+    "Absent_Flow": false,
+    "mean_PSV": 41.4,
+    "label": 3,
+    "Patient Name alt": "Mr. Ramesh Bhat",
+    "_age_sex_confidence": 3,
+    "label_adjusted": 3,
+    "_flags_missing": {
+      "Age": false,
+      "ABI": false,
+      "waveform_triphasic_count": false,
+      "waveform_monophasic_count": false,
+      "age_sex_confidence_low": false
+    },
+    "_ocr_snippet_near_ABI": " near occlusive flow characteristics. Ankle—Brachia! Index (ABI) ABI: 0.39 Impression 1. Severe reduction in PSV values with diffuse monophasic, low amplitude waveforms throughout "
+  },
+  "decision_notes": [
+    "model_preferred",
+    "abi_override_has_pad (ABI=0.39 <= 0.9)"
+  ],
+  "abi_numeric": 0.39,
+  "abi_has_pad_threshold": 0.9,
+  "abi_override_enabled": true,
+  "abi_suggests_has_pad": true,
+  "abi_non_compressible": false
+}

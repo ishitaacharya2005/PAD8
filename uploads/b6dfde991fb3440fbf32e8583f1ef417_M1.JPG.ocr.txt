@@ -1,0 +1,15 @@
+Graph Type: Stress Vs. Strain
+
+ee ee ee
+vot | | | | | | t ft ft tt ft tart
+wi | | | t | | | | | | PE Pre
+eiet Pt tT Pt Pry ry re ere
+MCLEE LE ELL reer
+Pott ttt t | ti Prt tt
+6 ot | | | t | | t tet | tT th
+ost | | | | | bt | | tT ht ht ht
+ot | [| | | Pat | | | ft tt
+of | tet { [ [| | | | | [ [ {|
+0 O01 0.01 002 0.02 002 0.03 003 004 004 005 0.05 006 007 0.08
+
+Strain

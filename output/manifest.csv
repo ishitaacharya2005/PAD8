@@ -1,0 +1,101 @@
+html_path,pdf_path,limb_side,patient_name,patient_id,age_sex,exam_date,referring_doctor,signing_doctor,predicted_severity,score,ABI,Percent_Stenosis,PSVR,wave_mono,wave_bi,wave_tri
+C:\PAD8\output\html\report_001.html,,Left,Rahul Bhatt,552944,46 Years / Male,06-04-2023,Dr. M. Rao,Dr. K. Iyer,None,0.03888888888888888,1.16,,,0,1,2
+C:\PAD8\output\html\report_002.html,,Right,Sunita Malhotra,964544,55 Years / Male,08-03-2024,Dr. L. Menon,Dr. K. Bhat,None,0.0,1.08,,,0,1,2
+C:\PAD8\output\html\report_003.html,,Right,Sonal Shah,367753,83 Years / Female,18-09-2019,Dr. L. Menon,Dr. R. Joshi,None,0.07777777777777777,0.99,,,0,1,2
+C:\PAD8\output\html\report_004.html,,Right,Swati Sharma,317301,63 Years / Female,07-09-2021,Dr. S. Patel,Dr. A. Joshi,None,0.0,1.17,,,0,1,2
+C:\PAD8\output\html\report_005.html,,Right,Yash Patel,440062,44 Years / Male,15-09-2022,Dr. M. Rao,Dr. S. Kumar,None,0.03888888888888888,1.29,,,0,0,3
+C:\PAD8\output\html\report_006.html,,Left,Rohan Ghosh,777057,46 Years / Male,02-03-2019,Dr. M. Rao,Dr. A. Bhattacharya,None,0.0,0.95,,,0,0,5
+C:\PAD8\output\html\report_007.html,,Right,Rahul Mukherjee,478082,48 Years / Female,09-10-2019,Dr. G. Sinha,Dr. A. Saxena,None,0.0,0.93,,,0,0,2
+C:\PAD8\output\html\report_008.html,,Right,Vikram Shah,474680,50 Years / Female,18-10-2023,Dr. K. Bhat,Dr. Chopra,None,0.0,1.02,,,0,1,2
+C:\PAD8\output\html\report_009.html,,Left,Anjali Das,387241,77 Years / Female,06-06-2019,Dr. M. Rao,Dr. S. Jain,None,0.19444444444444445,1.27,,,0,0,5
+C:\PAD8\output\html\report_010.html,,Left,Nisha Kapoor,984475,51 Years / Female,22-07-2023,Dr. K. Bhat,Dr. Rao,None,0.07777777777777777,1.07,,,0,1,2
+C:\PAD8\output\html\report_011.html,,Right,Yash Trivedi,403880,85 Years / Female,17-07-2024,Dr. L. Menon,Dr. A. Bhattacharya,None,0.07777777777777777,1.14,,,0,1,4
+C:\PAD8\output\html\report_012.html,,Left,Manish Pillai,990075,64 Years / Female,22-06-2021,Dr. V. Desai,Dr. A. Rao,None,0.0,1.16,,,0,0,5
+C:\PAD8\output\html\report_013.html,,Right,Kartik Malhotra,254615,62 Years / Male,09-10-2019,Dr. A. Chatterjee,Dr. Banerjee,None,0.07777777777777777,1.17,,,0,0,5
+C:\PAD8\output\html\report_014.html,,Left,Bhavana Iyer,289771,55 Years / Female,24-06-2024,Dr. K. Bhat,Dr. A. Singh,None,0.03888888888888888,1.27,,,0,1,5
+C:\PAD8\output\html\report_015.html,,Right,Pooja Joshi,818226,73 Years / Female,16-02-2020,Dr. P. Nair,Dr. A. Rao,None,0.0,1.22,,,0,1,2
+C:\PAD8\output\html\report_016.html,,Right,Lakshmi Kumar,460247,47 Years / Female,13-07-2021,Dr. A. Chatterjee,Dr. S. Jain,None,0.07777777777777777,1.11,,,0,0,4
+C:\PAD8\output\html\report_017.html,,Left,Ananya Trivedi,893300,52 Years / Female,15-04-2020,Dr. K. Bhat,Dr. A. Bhat,None,0.03888888888888888,1.3,,,0,0,4
+C:\PAD8\output\html\report_018.html,,Right,Sunita Saxena,744173,81 Years / Female,13-02-2022,Dr. P. Sharma,Dr. S. Jain,None,0.07777777777777777,0.97,,,0,1,4
+C:\PAD8\output\html\report_019.html,,Left,Sadhana Malhotra,707868,62 Years / Female,26-03-2023,Dr. V. Desai,Dr. K. Iyer,None,0.0,1.27,,,0,1,4
+C:\PAD8\output\html\report_020.html,,Left,Ira Malhotra,365649,44 Years / Female,16-11-2022,Dr. T. Singh,Dr. K. Bhat,None,0.0,1.18,,,0,0,2
+C:\PAD8\output\html\report_021.html,,Left,Kavya Singh,691081,44 Years / Male,13-07-2021,Dr. P. Nair,Dr. R. Iyer,None,0.0,1.15,,,0,0,3
+C:\PAD8\output\html\report_022.html,,Right,Lakshmi Saxena,321761,46 Years / Male,09-07-2020,Dr. L. Menon,Dr. R. Saxena,None,0.0,1.01,,,0,1,2
+C:\PAD8\output\html\report_023.html,,Right,Amit Trivedi,539498,41 Years / Male,22-12-2021,Dr. S. Patel,Dr. A. Singh,None,0.15555555555555553,0.98,,,0,0,2
+C:\PAD8\output\html\report_024.html,,Left,Kishore Mukherjee,509222,69 Years / Female,11-02-2020,Dr. A. Chatterjee,Dr. Iyer,None,0.07777777777777777,1.09,,,0,0,4
+C:\PAD8\output\html\report_025.html,,Right,Sonal Gupta,991083,79 Years / Male,01-12-2019,Dr. D. Gupta,Dr. R. Bhat,None,0.0,1.24,,,0,1,2
+C:\PAD8\output\html\report_026.html,,Right,Ira Chatterjee,275576,65 Years / Male,22-11-2023,Dr. S. Patel,Dr. R. Chopra,Mild,0.85,0.74,,,0,2,2
+C:\PAD8\output\html\report_027.html,,Right,Shreya Chatterjee,962712,81 Years / Male,25-08-2021,Dr. M. Rao,Dr. A. Rao,Mild,1.0,0.78,,,0,5,1
+C:\PAD8\output\html\report_028.html,,Right,Suresh Kumar,875981,45 Years / Female,10-03-2024,Dr. T. Singh,Dr. S. Banerjee,Mild,0.8888888888888888,0.84,,,0,2,2
+C:\PAD8\output\html\report_029.html,,Left,Priya Shah,878748,61 Years / Male,12-09-2022,Dr. M. Rao,Dr. S. Bhat,Mild,1.0,0.79,,,0,3,2
+C:\PAD8\output\html\report_030.html,,Right,Priya Rao,581995,83 Years / Male,25-12-2023,Dr. T. Singh,Dr. K. Banerjee,Mild,1.0,0.77,,,0,3,0
+C:\PAD8\output\html\report_031.html,,Left,Sonal Patel,500814,70 Years / Male,05-04-2024,Dr. V. Desai,Dr. S. Mehta,Mild,0.8111111111111111,0.84,,,0,2,2
+C:\PAD8\output\html\report_032.html,,Left,Ramesh Malhotra,731971,72 Years / Male,19-05-2023,Dr. P. Nair,Dr. R. Mehta,Mild,0.9611111111111111,0.75,,,0,5,0
+C:\PAD8\output\html\report_033.html,,Left,Rahul Patel,409159,42 Years / Female,24-06-2022,Dr. K. Bhat,Dr. R. Iyer,Mild,1.0,0.89,,,0,2,1
+C:\PAD8\output\html\report_034.html,,Left,Sunita Malhotra,508036,60 Years / Male,24-11-2019,Dr. N. Banerjee,Dr. K. Rao,Mild,1.0,0.71,,,0,3,2
+C:\PAD8\output\html\report_035.html,,Right,Shreya Chatterjee,601451,76 Years / Male,20-09-2020,Dr. H. Kumar,Dr. R. Saxena,Mild,1.0388888888888888,0.78,,,0,5,2
+C:\PAD8\output\html\report_036.html,,Right,Neha Kumar,524314,65 Years / Female,23-11-2024,Dr. L. Menon,Dr. R. Iyer,Mild,1.0,0.84,,,0,4,0
+C:\PAD8\output\html\report_037.html,,Left,Pooja Iyer,865905,75 Years / Female,27-05-2020,Dr. H. Kumar,Dr. K. Joshi,Mild,1.0,0.71,,,0,2,1
+C:\PAD8\output\html\report_038.html,,Left,Aditya Menon,511882,69 Years / Male,03-09-2019,Dr. P. Sharma,Dr. R. Jain,Mild,1.0388888888888888,0.82,,,0,3,2
+C:\PAD8\output\html\report_039.html,,Right,Vikram Jain,549218,70 Years / Female,02-09-2020,Dr. T. Singh,Dr. S. Bhattacharya,Mild,1.0388888888888888,0.77,,,0,4,1
+C:\PAD8\output\html\report_040.html,,Right,Ila Saxena,378794,73 Years / Female,28-08-2020,Dr. P. Nair,Dr. A. Mehta,Mild,1.0,0.88,,,0,3,1
+C:\PAD8\output\html\report_041.html,,Right,Ishaan Saxena,305428,83 Years / Male,22-01-2019,Dr. K. Bhat,Dr. A. Jain,Mild,1.0,0.88,,,0,4,0
+C:\PAD8\output\html\report_042.html,,Right,Ramesh Jain,526084,84 Years / Male,23-04-2022,Dr. N. Banerjee,Dr. S. Kumar,Mild,1.0388888888888888,0.82,,,0,5,1
+C:\PAD8\output\html\report_043.html,,Left,Sadhana Singh,913341,53 Years / Female,08-01-2020,Dr. G. Sinha,Dr. S. Shah,Mild,0.9611111111111111,0.88,,,0,3,1
+C:\PAD8\output\html\report_044.html,,Right,Rhea Patel,346942,72 Years / Female,17-08-2021,Dr. P. Nair,Dr. S. Saxena,Mild,0.9222222222222222,0.8,,,0,5,2
+C:\PAD8\output\html\report_045.html,,Right,Ila Joshi,904066,75 Years / Male,17-05-2024,Dr. R. Iyer,Dr. K. Rao,Mild,1.0,0.86,,,0,3,1
+C:\PAD8\output\html\report_046.html,,Left,Sanjay Nair,977259,49 Years / Male,04-12-2021,Dr. K. Bhat,Dr. S. Joshi,Mild,0.85,0.88,,,0,2,2
+C:\PAD8\output\html\report_047.html,,Left,Ishaan Kapoor,651488,51 Years / Male,30-01-2020,Dr. K. Bhat,Dr. A. Kumar,Mild,1.0388888888888888,0.86,,,0,2,0
+C:\PAD8\output\html\report_048.html,,Left,Kavya Trivedi,299994,73 Years / Male,30-07-2021,Dr. R. Iyer,Dr. S. Shah,Mild,0.9611111111111111,0.82,,,0,4,1
+C:\PAD8\output\html\report_049.html,,Right,Shreya Patel,302430,67 Years / Male,08-11-2019,Dr. N. Banerjee,Dr. S. Banerjee,Mild,1.0,0.83,,,0,2,1
+C:\PAD8\output\html\report_050.html,,Left,Aarav Pillai,666339,63 Years / Female,23-02-2020,Dr. P. Sharma,Dr. Bhattacharya,Mild,1.0,0.78,,,0,2,1
+C:\PAD8\output\html\report_051.html,,Right,Amit Joshi,855395,71 Years / Male,19-02-2024,Dr. M. Rao,Dr. A. Rao,Moderate,1.8833333333333335,0.53,,,1,0,1
+C:\PAD8\output\html\report_052.html,,Right,Rashmi Gupta,914827,75 Years / Male,05-03-2024,Dr. R. Joshi,Dr. A. Shah,Moderate,1.7722222222222221,0.68,,,2,2,1
+C:\PAD8\output\html\report_053.html,,Right,Aditya Rao,614798,41 Years / Male,16-01-2024,Dr. T. Singh,Dr. R. Jain,Moderate,2.0,0.49,,,2,0,1
+C:\PAD8\output\html\report_054.html,,Left,Ila Kumar,904758,48 Years / Female,27-04-2020,Dr. R. Iyer,Dr. K. Chopra,Moderate,1.961111111111111,0.4,,,2,0,0
+C:\PAD8\output\html\report_055.html,,Right,Sadhana Malhotra,429157,67 Years / Male,10-10-2021,Dr. D. Gupta,Dr. Shah,Moderate,2.0,0.55,,,2,1,1
+C:\PAD8\output\html\report_056.html,,Right,Om Rao,262165,57 Years / Male,27-06-2020,Dr. R. Iyer,Dr. A. Singh,Moderate,1.8499999999999999,0.48,,,1,1,0
+C:\PAD8\output\html\report_057.html,,Right,Anjali Rao,927744,48 Years / Female,18-10-2019,Dr. R. Iyer,Dr. R. Chopra,Moderate,1.811111111111111,0.52,,,2,2,0
+C:\PAD8\output\html\report_058.html,,Right,Ishaan Reddy,935575,40 Years / Male,26-07-2024,Dr. N. Banerjee,Dr. S. Kapoor,Moderate,1.8499999999999999,0.56,,,1,1,0
+C:\PAD8\output\html\report_059.html,,Right,Ramesh Sharma,246177,40 Years / Male,08-07-2019,Dr. V. Desai,Dr. K. Jain,Moderate,2.0,0.63,,,2,0,1
+C:\PAD8\output\html\report_060.html,,Right,Divya Rao,715929,43 Years / Male,20-02-2022,Dr. M. Rao,Dr. Kumar,Moderate,1.7722222222222221,0.56,,,1,2,1
+C:\PAD8\output\html\report_061.html,,Left,Siddharth Sharma,624035,68 Years / Male,23-01-2020,Dr. V. Desai,Dr. Banerjee,Moderate,1.9222222222222223,0.63,,,1,0,0
+C:\PAD8\output\html\report_062.html,,Right,Sanya Chatterjee,702985,74 Years / Female,10-11-2022,Dr. G. Sinha,Dr. S. Kapoor,Moderate,1.7722222222222221,0.41,,,2,2,1
+C:\PAD8\output\html\report_063.html,,Left,Sunita Shah,293035,85 Years / Female,04-01-2024,Dr. S. Patel,Dr. K. Kumar,Moderate,2.0,0.6,,,1,0,1
+C:\PAD8\output\html\report_064.html,,Left,Neha Bose,378368,64 Years / Male,04-11-2019,Dr. K. Bhat,Dr. Saxena,Moderate,2.0,0.47,,,2,1,0
+C:\PAD8\output\html\report_065.html,,Right,Ira Singh,289870,82 Years / Female,23-08-2023,Dr. A. Chatterjee,Dr. S. Kumar,Moderate,2.0,0.49,,,1,0,1
+C:\PAD8\output\html\report_066.html,,Left,Ira Singh,439030,48 Years / Female,20-12-2023,Dr. A. Chatterjee,Dr. K. Rao,Moderate,1.8499999999999999,0.43,,,2,2,1
+C:\PAD8\output\html\report_067.html,,Left,Anjali Kapoor,232047,55 Years / Female,25-06-2024,Dr. T. Singh,Dr. R. Bhattacharya,Moderate,1.7666666666666666,0.61,,,2,0,0
+C:\PAD8\output\html\report_068.html,,Left,Pooja Shah,945635,81 Years / Female,10-02-2021,Dr. P. Sharma,Dr. S. Banerjee,Moderate,1.8499999999999999,0.47,,,2,2,1
+C:\PAD8\output\html\report_069.html,,Right,Deepak Reddy,976909,56 Years / Male,06-10-2022,Dr. H. Kumar,Dr. Kumar,Moderate,1.8499999999999999,0.47,,,2,2,0
+C:\PAD8\output\html\report_070.html,,Left,Ishaan Gupta,284736,71 Years / Female,25-12-2020,Dr. N. Banerjee,Dr. Mehta,Moderate,1.961111111111111,0.5,,,2,1,1
+C:\PAD8\output\html\report_071.html,,Right,Karan Mukherjee,953681,79 Years / Male,03-03-2022,Dr. M. Rao,Dr. Shah,Moderate,2.0,0.44,,,2,1,0
+C:\PAD8\output\html\report_072.html,,Right,Ishaan Joshi,261495,50 Years / Male,01-09-2023,Dr. G. Sinha,Dr. S. Shah,Moderate,1.961111111111111,0.64,,,2,1,0
+C:\PAD8\output\html\report_073.html,,Left,Ananya Menon,355875,75 Years / Male,17-02-2019,Dr. H. Kumar,Dr. A. Kapoor,Moderate,1.9222222222222223,0.63,,,2,0,1
+C:\PAD8\output\html\report_074.html,,Left,Priya Gupta,716342,48 Years / Female,14-03-2020,Dr. D. Gupta,Dr. S. Kumar,Moderate,1.8499999999999999,0.64,,,1,2,1
+C:\PAD8\output\html\report_075.html,,Right,Siddharth Pillai,916586,56 Years / Male,12-09-2019,Dr. R. Joshi,Dr. K. Kumar,Moderate,1.811111111111111,0.48,,,1,2,1
+C:\PAD8\output\html\report_076.html,,Left,Rashmi Joshi,832697,52 Years / Male,19-04-2022,Dr. V. Desai,Dr. A. Bhat,Severe,3.0,0.34,,,7,0,0
+C:\PAD8\output\html\report_077.html,,Right,Sunita Rao,769460,74 Years / Female,12-01-2020,Dr. N. Banerjee,Dr. A. Kumar,Severe,3.0,0.15,,,6,0,0
+C:\PAD8\output\html\report_078.html,,Left,Yash Iyer,535872,72 Years / Male,29-01-2020,Dr. P. Sharma,Dr. S. Kapoor,Severe,3.0,0.2,,,4,1,0
+C:\PAD8\output\html\report_079.html,,Right,Karan Malhotra,206185,81 Years / Male,06-07-2019,Dr. R. Joshi,Dr. Saxena,Severe,3.0,0.12,89,,6,0,0
+C:\PAD8\output\html\report_080.html,,Right,Kartik Joshi,961200,62 Years / Male,18-08-2023,Dr. G. Sinha,Dr. S. Bhattacharya,Severe,3.0,0.94,76,6.39,7,1,0
+C:\PAD8\output\html\report_081.html,,Left,Sonal Trivedi,794397,63 Years / Female,21-10-2023,Dr. P. Sharma,Dr. Saxena,Severe,3.0,0.16,81,5.8,4,1,0
+C:\PAD8\output\html\report_082.html,,Left,Ritika Patel,778388,56 Years / Female,31-08-2020,Dr. N. Banerjee,Dr. R. Kumar,Severe,3.0,0.16,91,,5,1,0
+C:\PAD8\output\html\report_083.html,,Left,Anand Patel,241843,81 Years / Female,27-02-2020,Dr. R. Joshi,Dr. S. Bhat,Severe,3.0,1.14,86,6.67,4,1,0
+C:\PAD8\output\html\report_084.html,,Right,Pranav Joshi,318844,70 Years / Female,16-05-2024,Dr. R. Iyer,Dr. S. Bhattacharya,Severe,3.0,0.34,80,6.41,7,1,0
+C:\PAD8\output\html\report_085.html,,Left,Aditya Bose,675497,78 Years / Male,30-07-2021,Dr. L. Menon,Dr. R. Bhattacharya,Severe,3.0,0.22,,,3,0,0
+C:\PAD8\output\html\report_086.html,,Right,Ravi Saxena,443807,45 Years / Female,01-08-2023,Dr. D. Gupta,Dr. A. Mehta,Severe,3.0,0.25,,6.36,4,1,0
+C:\PAD8\output\html\report_087.html,,Left,Ira Singh,984140,54 Years / Female,24-10-2020,Dr. M. Rao,Dr. A. Kapoor,Severe,3.0,0.27,84,,7,0,0
+C:\PAD8\output\html\report_088.html,,Left,Kishore Mukherjee,740869,84 Years / Male,25-11-2020,Dr. H. Kumar,Dr. Saxena,Severe,3.0,0.2,90,,4,0,0
+C:\PAD8\output\html\report_089.html,,Left,Bhavana Das,764032,76 Years / Female,19-12-2023,Dr. L. Menon,Dr. S. Shah,Severe,3.0,0.1,78,,3,0,0
+C:\PAD8\output\html\report_090.html,,Right,Rahul Nair,971153,55 Years / Female,26-04-2021,Dr. R. Iyer,Dr. A. Iyer,Severe,3.0,0.32,85,7.58,6,1,0
+C:\PAD8\output\html\report_091.html,,Left,Aarav Sharma,906848,53 Years / Female,17-02-2020,Dr. N. Banerjee,Dr. K. Joshi,Severe,3.0,0.2,80,,3,0,0
+C:\PAD8\output\html\report_092.html,,Left,Yash Mukherjee,759921,60 Years / Female,13-05-2022,Dr. D. Gupta,Dr. S. Iyer,Severe,3.0,0.97,79,,4,1,0
+C:\PAD8\output\html\report_093.html,,Left,Nisha Verma,500441,69 Years / Male,17-11-2020,Dr. H. Kumar,Dr. K. Jain,Severe,3.0,0.22,85,,3,0,0
+C:\PAD8\output\html\report_094.html,,Left,Asha Bhatt,616297,73 Years / Male,01-03-2020,Dr. D. Gupta,Dr. S. Bhattacharya,Severe,3.0,0.27,,5.59,3,0,0
+C:\PAD8\output\html\report_095.html,,Left,Swati Malhotra,438161,45 Years / Female,15-06-2022,Dr. N. Banerjee,Dr. R. Rao,Severe,3.0,0.37,,,5,1,0
+C:\PAD8\output\html\report_096.html,,Left,Kartik Malhotra,481880,66 Years / Male,08-10-2019,Dr. P. Sharma,Dr. A. Rao,Severe,3.0,0.1,88,,5,0,0
+C:\PAD8\output\html\report_097.html,,Right,Naveen Kumar,769578,70 Years / Male,26-02-2021,Dr. G. Sinha,Dr. K. Iyer,Severe,3.0,0.23,77,,5,1,0
+C:\PAD8\output\html\report_098.html,,Right,Vikas Bose,215799,50 Years / Female,05-05-2020,Dr. L. Menon,Dr. A. Mehta,Severe,3.0,0.14,,,6,0,0
+C:\PAD8\output\html\report_099.html,,Left,Anand Malhotra,509030,74 Years / Female,16-02-2021,Dr. T. Singh,Dr. A. Kapoor,Severe,3.0,1.13,87,4.54,7,1,0
+C:\PAD8\output\html\report_100.html,,Left,Neha Patel,336078,51 Years / Male,07-04-2021,Dr. M. Rao,Dr. R. Kumar,Severe,3.0,0.24,,6.56,3,0,0
